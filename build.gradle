@@ -22,6 +22,10 @@ dependencies {
 	implementation group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter', version: '7.15.0'
 	implementation group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-rest', version: '7.15.0'
 	implementation group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-webapp', version: '7.15.0'
+	//json
+	implementation group: 'org.camunda.bpm', name: 'camunda-engine-plugin-spin', version: '7.15.0'
+	implementation group: 'org.camunda.spin', name: 'camunda-spin-core', version: '1.11.0'
+	implementation group: 'org.camunda.spin', name: 'camunda-spin-dataformat-json-jackson', version: '1.11.0'
 }
 
 test {
